@@ -48,7 +48,7 @@
         />
         <form action="" class="py-5">
           <v-text-field label="E-mail"></v-text-field>
-          <v-text-field label="Senha"></v-text-field>
+          <v-text-field type="password" label="Password"></v-text-field>
         </form>
         <div class="d-flex justify-end">
           <v-btn class="text-none" color="primary">Login</v-btn>
