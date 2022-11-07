@@ -1,8 +1,8 @@
 <template>
   <v-sheet class="banner-top" height="100%" color="grey">
-    <v-container>
-      <v-row>
-        <v-col cols="4">
+    <v-container class="pb-0">
+      <v-row class="flex-column-reverse flex-lg-row">
+        <v-col cols="12" lg="4">
           <div class="white--text text-body-1">
             Mercado digital para colecionáveis em criptos e tokens não fungível
             (NFT). Compre, venda e descubra ativos digitais exclusivos para
@@ -17,13 +17,13 @@
             </div>
           </div>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" lg="6">
           <div class="text-h2 white--text font-weight-bold">
             Descubra a verdadeira arte digital e colecione diversas
             <span class="primary--text">NFTs</span>
           </div>
         </v-col>
-        <v-col class="d-flex justify-end" cols="2"
+        <v-col class="d-flex justify-end" cols="12" lg="2"
           ><img height="200px" src="../../assets/badge.svg" alt=""
         /></v-col>
       </v-row>
